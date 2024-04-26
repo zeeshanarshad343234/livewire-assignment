@@ -32,6 +32,7 @@
   --danger: #e74a3b;
   --light: #f8f9fc;
   --dark: #5a5c69;
+  --purple: #516BEB;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -78,6 +79,15 @@ hr {
   height: 0;
   overflow: visible;
 }
+
+.bg-purple-color {
+  background-color: var(--purple);
+}
+
+.purple-color {
+  color: var(--purple);
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
